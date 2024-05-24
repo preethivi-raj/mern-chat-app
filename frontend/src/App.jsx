@@ -1,15 +1,28 @@
 
 import './App.css'
-import Home from './Pages/home/Home'
 
+import {Routes , Route ,Navigate} from "react-router-dom"
+
+import Home from "./Pages/home/Home";
+import Login from "./Pages/Login/Login";
+import SignUp from "./Pages/signup/SignUp"
+
+import {Toaster} from "react-hot-toast"
+
+import {useAuthContext} from "./context/AuthContext"
 
 
 function App() {
  
-
+const {authUser}=useAuthContext()
   return (
     <div className='p-4 h-screen flex items-center justify-center'>
-      <Home/>
+      <Routes>
+        <Route path="/" element={authUser ? <Home/> :<Navigate to="/login" /> }/>
+        <Route path="/login" element={authUser ? <Navigate to="/" /> :<Login/>}/>
+        <Route path="/signup" element={authUser ? <Navigate to="/" /> : <SignUp/>}/>
+      </Routes>
+      <Toaster/>
     </div>
   )
 }
