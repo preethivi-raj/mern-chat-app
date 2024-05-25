@@ -7,7 +7,7 @@ A real-time chat application built using the MERN stack (MongoDB, Express, React
 - Real-time messaging with Socket.io
 - User authentication and authorization
 - MongoDB for storing chat history and user data
-- Responsive design for both desktop and mobile users
+
 
 ## Technologies Used
 
@@ -20,9 +20,6 @@ A real-time chat application built using the MERN stack (MongoDB, Express, React
 
 Check out the live demo: [MERN Chat App](https://chat-app-ieyl.onrender.com/)
 
-## Screenshots
-
-![Chat App Screenshot](https://drive.google.com/file/d/10NHccktez_mNmIvWBaZv4Shu7y1Ca2Wq/view?usp=drive_link)
 
 ## Installation
 
