@@ -22,7 +22,7 @@ Check out the live demo: [MERN Chat App](https://chat-app-ieyl.onrender.com/)
 
 ## Screenshots
 
-![Chat App Screenshot](https://drive.google.com/file/d/10NHccktez_mNmIvWBaZv4Shu7y1Ca2Wq/view?usp=sharing)
+![Chat App Screenshot](https://drive.google.com/file/d/10NHccktez_mNmIvWBaZv4Shu7y1Ca2Wq/view?usp=drive_link)
 
 ## Installation
 
