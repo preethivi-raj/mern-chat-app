@@ -24,7 +24,7 @@ const Message = ({message}) => {
                 <img src={profilePic} alt="avatar" />
             </div>
         </div>
-        <div className={`chat-bubble test-white ${bubbleColor} ${shakeClass} pb-2`}>{message.message}</div>
+        <div className={`chat-bubble text-white ${bubbleColor} ${shakeClass} pb-2`}>{message.message}</div>
         <div className='chat-footer opacity-50 text-xs text-black flex gap-1 items-center'>
           {message.createdAt.split("T")[1].split(".")[0]}
         </div>

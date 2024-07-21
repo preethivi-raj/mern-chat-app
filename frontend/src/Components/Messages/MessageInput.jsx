@@ -18,7 +18,7 @@ const MessageInput = () => {
   return (
       <form className='px-4 my-3' onSubmit={handleSubmit}>
          <div className='w-full relative'>
-            <input type="text" className='border text-sm rounded-lg block w-full p-2.5 bg-pink-50 opacity-50 text-neutral-950' 
+            <input type="text" className='border text-sm rounded-lg block w-full p-2.5 bg-pink opacity-50 text-white' 
             placeholder='Send a message'
             value={message}
             onChange={(e)=>setMessage(e.target.value)}
